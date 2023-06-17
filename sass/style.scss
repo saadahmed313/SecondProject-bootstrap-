@@ -1,0 +1,192 @@
+@import "./__variable";
+@import "../scss/bootstrap.scss";
+body
+{
+    font-family: cursive;
+}
+
+.navbar-nav .nav-link
+{    position: relative;
+    &::before
+    {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 3px;
+        background-color: $blue;
+        transition: 0.4s;
+    }
+    &.active
+    ,&:hover
+    {
+     
+        color: $blue !important;
+    &::before
+    {
+        width: 100%;
+    }
+    }
+}
+#home
+{
+    background: url("https://www.lag.glass/wp-content/uploads/lag_home_2-1200x675.jpg") center center/cover ;
+    height: 75vh;
+    // &::before
+    // {
+    //     content: "";
+    //     position: absolute;
+    //     inset: 0;
+    //     background-color: transparentize($color: #fff, $amount: 0.5);
+    // }       
+
+}
+.modal
+{
+    &.fade .modal-dialog
+    {
+        
+    transition: transform 0.3s ease-out;
+    transform: scale(0);
+
+    } 
+    &.show .modal-dialog
+    {
+        transform:none
+    }
+}
+#about
+{
+    background-color: rgb(246, 249, 254);
+}
+.main-titl >span
+{
+    background-color: #e7f1fd;
+}
+.icon
+{
+    width: 70px;
+    height: 70px;
+}
+.progress-bar
+{
+    transition: 0.4s;
+
+}
+
+.work
+{
+    .box
+    {
+       background-color: #F6F9FE;
+       padding-top: 20px;
+       padding-bottom: 5px;
+    }
+    .icons
+    {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -20px;
+        background-color: #106EEA;
+        width: 60px;
+        height: 60px;
+
+    }
+    .icons i
+    {
+        color:white ;
+    }
+}
+.bg-section
+{
+    background-color: #F6F9FE;
+}
+.overlay
+{
+transition: 0.5s;
+}
+.overlay::before
+{
+content: "";
+inset: 0;
+top: 100%;
+width: 100%;
+position: absolute;
+background-color: #106EEA;
+transition:  0.5s;
+z-index: -1;
+}
+.in-box:hover .overlay::before
+{
+ width: 100%;
+inset: 0;
+transition: 0.5s;
+}
+.in-box:hover .overlay >*
+{
+color: white !important;
+}
+.slidebar
+{
+ background:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Z8yRtbx_7sLTd5T586VbDzJUgFhjGJT-ZA&usqp=CAU") center center/cover;
+
+ position: relative;
+ &::before
+ {
+    content: "";
+    position: absolute;
+    inset: 0;
+background-color: rgba(255, 0, 234, 0.173) ;
+ }
+img
+{
+    width: 150px;
+    height: 150px;
+}
+}
+.filteration > a
+{
+    height: 350px;
+   animation:0.7s show ease-in-out ;
+    img
+    {
+        object-fit: contain;
+    }
+}
+#contact
+{
+    i
+    {
+        border: 1px dashed  #106EEA;
+        width: 50px;
+        height: 50px;
+    }
+}
+@keyframes show {
+    0%
+    {
+        transform: scale(0);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+
+.footer
+{
+    li
+    {
+        position: relative;
+        &::before
+        {
+            content: "";
+            position: absolute;
+            border: 6px solid transparent;
+            border-left-color: #106EEA;
+            transform: translateY(50%);
+            left: -17px;
+        }
+    }
+}

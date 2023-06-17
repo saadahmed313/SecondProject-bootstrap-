@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="../css/lightGallery.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#nav">
+  
+<nav class="navbar navbar-expand-lg bg-body shadow-sm sticky-top" id="nav">
+    <div class="container">
+      <a class="navbar-brand fs-4" href="#">Abdo</a>
+      <button class="navbar-toggler shadow-none border-2 border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-sharp fa-solid fa-bars-staggered"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll ms-auto text-center">
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-black-50" href="#about">About</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-black-50" href="#servies">Servies</a>
+          </li>
+          <li class="nav-item dropdown me-3">
+            <a class="nav-link dropdown-toggle text-black-50" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-black-50" href="#">Action</a></li>
+              <li><a class="dropdown-item text-black-50" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-black-50" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-black-50" href="#protofile">Protofile</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-black-50" href="#contact">Contact</a>
+          </li>
+        
+        </ul>
+   
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="position-relative">
+    <div class="container d-flex align-items-center h-100">
+     <div class="text">
+      <h1>Welcome to <span class="text-primary">Web Site Abdo</span></h1>
+      <p class="text-muted fs-4"> We are team of talented designers making websites with Bootstrap </p>
+      <div class="btn-group">
+       <button class="btn btn-primary me-3">Get Started</button>
+       <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-regular fa-circle-play me-1"></i> Watch Video</button>
+      </div>
+     </div>
+   </div>
+     </div>
+<div id="about">
+  <div class="container">
+   <div class="main-titl text-center">
+    <span class="d-inline-block text-uppercase text-primary rounded-pill px-3 my-3">about</span>
+    <h6 class="display-5">Find Out More <span class="text-primary "> About Us</span></h6>
+  <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> 
+  </div>    
+  <div class="row py-5">
+    <div class="col-lg-6">
+      <img class="w-100 mb-4 mb-lg-0" src="./img/about.jpg" alt="">
+    </div>
+    <div class="col-lg-6">
+     <h6 class="fs-5 fw-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h6>
+     <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <ul class="list-unstyled">
+      <li><div class="icons  d-flex">
+       <div class="icon bg-body shadow rounded-circle d-flex flex-shrink-0 justify-content-center align-items-center me-3">  <i class="fa-solid fa-book-open fs-4 text-primary"></i></div>
+        <div class="text"> <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+         <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p></div>
+      </div></li>
+      <li><div class="icons  d-flex">
+       <div class="icon bg-body shadow rounded-circle d-flex flex-shrink-0 justify-content-center align-items-center me-3">  <i class="fa-solid fa-book-open fs-4 text-primary"></i></div>
+        <div class="text"> <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+         <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p></div>
+      </div></li>
+
+    </ul>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- progress -->
+<div class="progress-div py-5">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="skill d-flex justify-content-between">
+
+          <b>Html</b>
+          <b><span>0</span>%</b>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="skill d-flex justify-content-between">
+
+          <b>Css</b>
+          <b><span>0</span>%</b>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="skill d-flex justify-content-between">
+
+          <b>Javascript</b>
+          <b><span>0</span>%</b>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="skill d-flex justify-content-between">
+
+          <b>Php</b>
+          <b><span>0</span>%</b>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="skill d-flex justify-content-between">
+
+          <b>WORDPRESS</b>
+          <b><span>0</span>%</b>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="skill d-flex justify-content-between">
+
+          <b>PHOTOSHOP</b>
+          <b><span>0</span>%</b>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- work -->
+<div class="work py-3 ">
+  <div class="container">
+
+    <div class="row">
+      <div class="position-relative col-xl-3 col-lg-4 col-md-6  b-4 ">
+        <div class="box">
+
+          <div class="icons   d-flex justify-content-center align-items-center rounded-circle position-absolute">
+            <i class="fa-regular fa-face-smile fa-2x"></i>
+          </div>
+          <div class="text-center">
+            
+            <p class="time pt-4 mt-4 fs-3" data-skill="110">0</p>
+            <p class="fs-3 mb-5" >Happy Client</p>
+          </div>
+        </div>
+      </div>
+      <div class="position-relative col-xl-3 col-lg-4 col-md-6 mb-4 ">
+        <div class="box">
+
+          <div class="icons   d-flex justify-content-center align-items-center rounded-circle position-absolute">
+            <i class="fa-regular fa-clipboard fa-2x"></i>
+          </div>
+          <div class="text-center">
+            
+            <p class="time pt-4 mt-4 fs-3" data-skill="120">0</p>
+            <p class="fs-3 mb-5" >
+              Projects</p>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="position-relative col-xl-3 col-lg-4 col-md-6  mb-4 box">
+        <div class="icons  text-center d-flex justify-content-center align-items-center rounded-circle position-absolute">
+          <i class="fa-regular fa-bell-slash fa-2x"></i>
+        </div>
+        <div class="text-center">
+
+          <p class="time pt-4 mt-4 fs-3" data-skill="24">0</p>
+          <p class="fs-3 mb-5" >Hours Of Support</p>
+        </div>
+      </div>
+      <div class="position-relative col-xl-3 col-lg-4 col-md-6  mb-4 box">
+        <div class="icons  text-center d-flex justify-content-center align-items-center rounded-circle position-absolute">
+          <i class="fa-regular fa-user fa-2x"></i>
+        </div>
+        <div class="text-center">
+
+          <p class="time pt-4 mt-4 fs-3" data-skill="15">0</p>
+          <p class="fs-3 mb-5" >Hard Workers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Client -->
+<div class="bg-section py-5">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-2 col-6 col-md-4 p-5">
+        <img class="img-fluid" src="./img/clients/client-1.png" alt="">
+      </div>
+  <div class="col-lg-2 col-6 col-md-4 p-5">
+    <img  class="img-fluid" src="./img/clients/client-2.png" alt="">
+  </div>
+  <div class="col-lg-2 col-6 col-md-4 p-5">
+    <img class="img-fluid" src="./img/clients/client-3.png" alt="">
+  </div>
+  <div class="col-lg-2 col-6 col-md-4 p-5">
+    <img class="img-fluid" src="./img/clients/client-4.png" alt="">
+  </div>
+  <div class="col-lg-2 col-6 col-md-4 p-5">
+    <img class="img-fluid" src="./img/clients/client-5.png" alt="">
+  </div>
+  <div class="col-lg-2 col-6 col-md-4 p-5">
+    <img class="img-fluid" src="./img/clients/client-6.png" alt="">
+  </div>
+</div>
+</div>
+</div>
+<!-- servies -->
+<div id="servies" class="py-5">
+  <div class="container">
+    <div class="main-titl text-center">
+     <span class="d-inline-block text-uppercase text-primary rounded-pill px-3 my-3">SERVICES</span>
+     <h6 class="display-5">Check our <span class="text-primary "> Services</span></h6>
+   <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> 
+   </div>   
+   <div class="row py-4">
+ <div class="col-md-6 col-lg-4 mb-3">
+  <div class=" in-box position-relative shadow p-5 overflow-hidden">
+    <div class="overlay">
+      <i class="fa-regular fa-chart-bar fa-2x text-primary my-3"></i>
+      <h3 class="mb-3 fw-bold fs-4">Lorem, ipsum dolor.</h3>
+      <p class="text-muted">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+    </div>
+  </div>
+ </div>
+ <div class="col-md-6 col-lg-4 mb-3">
+  <div class=" in-box position-relative shadow p-5 overflow-hidden">
+    <div class="overlay">
+      <i class="fa-regular fa-chart-bar fa-2x text-primary my-3"></i>
+      <h3 class="mb-3 fw-bold fs-4">Lorem, ipsum dolor.</h3>
+      <p class="text-muted">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+    </div>
+  </div>
+ </div>
+ <div class="col-md-6 col-lg-4 mb-3">
+  <div class=" in-box position-relative shadow p-5 overflow-hidden">
+    <div class="overlay">
+      <i class="fa-regular fa-chart-bar fa-2x text-primary my-3"></i>
+      <h3 class="mb-3 fw-bold fs-4">Lorem, ipsum dolor.</h3>
+      <p class="text-muted">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+    </div>
+  </div>
+ </div>
+ <div class="col-md-6 col-lg-4 mb-3">
+  <div class=" in-box position-relative shadow p-5 overflow-hidden">
+    <div class="overlay">
+      <i class="fa-regular fa-chart-bar fa-2x text-primary my-3"></i>
+      <h3 class="mb-3 fw-bold fs-4">Lorem, ipsum dolor.</h3>
+      <p class="text-muted">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+    </div>
+  </div>
+ </div>
+   </div> 
+   </div>
+</div>
+<!-- sidebar -->
+<div class="slidebar my-4">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <div class="text-center mb-5">
+
+          <img class="img-fluid rounded-circle mb-3 mt-3" src="./img/testimonials/testimonials-1.jpg" class="d-block w-100" alt="...">
+          <h4 class="text-white">First slide label</h4>
+          <p class="text-white">Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="text-center mb-5">
+
+          <img class="img-fluid rounded-circle mb-3 mt-3" src="./img/testimonials/testimonials-2.jpg" class="d-block w-100" alt="...">
+          <h4 class="text-white">Second slide label</h4>
+          <p class="text-white">Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="text-center mb-5">
+
+          <img class="img-fluid rounded-circle mb-3 mt-3" src="./img/testimonials/testimonials-3.jpg" class="d-block w-100" alt="...">
+          <h4 class="text-white">Third slide label</h4>
+          <p class="text-white">Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+  <div class="container">
+    <div class="main-titl text-center">
+     <span class="d-inline-block text-uppercase text-primary rounded-pill px-3 my-3">PORTFOLIO</span>
+     <h6 class="display-5">Check our<span class="text-primary ">Portfolio</span></h6>
+   <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+   </div>   
+   <ul class="list-group list-group-horizontal justify-content-center pb-4">
+    <li class="list-group-item active" data-filter="all">All</li>
+    <li class="list-group-item" data-filter="app">App</li>
+    <li class="list-group-item"data-filter="photo">Photo</li>
+    <li class="list-group-item"data-filter="web">Web</li>
+  </ul>
+  <div class="row filteration " id="lightgallery">
+    <a href="./img/portfolio/portfolio-1.jpg" class="col-md-6 col-lg-4 mb-3 all app">
+<img src="./img/portfolio/portfolio-1.jpg" alt="" class="w-100 h-100 p-2 shadow ">
+    </a>
+    <a href="./img/portfolio/portfolio-2.jpg" class="col-md-6 col-lg-4 mb-3 all app">
+<img src="./img/portfolio/portfolio-2.jpg" alt="" class="w-100 h-100  p-2 shadow ">
+    </a>
+    <a href="./img/portfolio/portfolio-3.jpg" class="col-md-6 col-lg-4 mb-3 all photo">
+<img src="./img/portfolio/portfolio-3.jpg" alt="" class="w-100 h-100  p-2 shadow ">
+    </a>
+    <a href="./img/portfolio/portfolio-4.jpg" class="col-md-6 col-lg-4 mb-3 all photo">
+<img src="./img/portfolio/portfolio-4.jpg" alt="" class="w-100 h-100  p-2 shadow ">
+    </a>
+    <a href="./img/portfolio/portfolio-5.jpg" class="col-md-6 col-lg-4 mb-3 all web">
+<img src="./img/portfolio/portfolio-5.jpg" alt="" class="w-100 h-100  p-2 shadow ">
+    </a>
+    <a href="./img/portfolio/portfolio-6.jpg" class="col-md-6 col-lg-4 mb-3 all web">
+<img src="./img/portfolio/portfolio-6.jpg" alt="" class="w-100 h-100  p-2 shadow">
+    </a>
+  
+  </div>
+   </div>
+</div>
+<!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="main-titl text-center">
+     <span class="d-inline-block text-uppercase text-primary rounded-pill px-3 my-3">CONTACT US</span>
+     <h6 class="display-5">Check our<span class="text-primary "> Contact Us</span></h6>
+   <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+   </div>   
+   <div class="row">
+     <div class="col-lg-6 mb-4">
+       <div class="shadow py-4 d-flex flex-column justify-content-center align-items-center text-muted">
+         <!-- <div class="icons "> -->
+ 
+           <i class="fa-solid fa-location-dot text-primary fs-4 rounded-circle d-flex  justify-content-center align-items-center"></i>
+         <!-- </div> -->
+         <h4 class="my-3">Our Address
+         </h4>
+         <p>A108 Adam Street, New York, NY 535022</p>
+ 
+       </div>
+     </div>
+    <div class="col-md-6  col-lg-3 mb-4">
+      <div class="shadow py-4 d-flex flex-column justify-content-center align-items-center text-muted">
+        <!-- <div class="icons "> -->
+
+          <i class="fa-regular fa-envelope text-primary fs-4 rounded-circle d-flex  justify-content-center align-items-center"></i>
+        <!-- </div> -->
+        <h4 class="my-3">Email Us
+
+        </h4>
+        <p>contact@example.com</p>
+
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="shadow py-4 d-flex flex-column justify-content-center align-items-center text-muted">
+        <!-- <div class="icons "> -->
+
+          <i class="fa-solid fa-phone text-primary fs-4 rounded-circle d-flex  justify-content-center align-items-center"></i>
+        <!-- </div> -->
+        <h4 class="my-3">Call Us
+        </h4>
+        <p>+1 5589 55488 55</p>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="p-2 shadow">
+
+          <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27347.675260066677!2d31.398032380774822!3d31.041307882326077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79db7a9053547%3A0xf8dab3bbed766c97!2z2KfZhNmF2YbYtdmI2LHYqdiMINin2YTZhdmG2LXZiNix2KkgKNmC2LPZhSAyKdiMINin2YTZhdmG2LXZiNix2KnYjCDYp9mE2K_ZgtmH2YTZitip!5e0!3m2!1sar!2seg!4v1662811770380!5m2!1sar!2seg" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-5">
+        <div class="p-3 shadow">
+          <div class="row input-style">
+            <div class="col-6 mb-3">
+              <input class="p-2 rounded-2 w-100 form-control" type="text" placeholder="Your Name">
+            </div>
+            <div class="col-6 mb-3">
+              <input class="p-2 rounded-2 w-100 form-control" type="email" placeholder="Your Email">
+            </div>
+            <div class="">
+              <input class="p-2 rounded-2 w-100 mb-3 form-control" type="text" placeholder="Your Subject">
+            </div>
+            <div class="col-12">
+              <textarea class="w-100 p-2 form-control mb-3" name="message" placeholder="message" id="" cols="30" rows="5"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-primary d-inline w-auto ">Send Message</button>
+        </div>
+      </div>
+    </div>
+   </div>
+   </div>   
+</div>
+<!-- footer -->
+<div class="footer bg-section py-3">
+  <div class="container">
+<div class="row">
+  
+  <div class="col-lg-3 col-md-6 text-muted">
+    <h4>Abdo</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum assumenda rem repellat similique corrupti</p>
+    
+    <p><b> Email</b> : lord.amen84@gmail.com</p>
+    <p><b> Phone </b> : +201124744853</p>
+  </div>
+  <div class="col-lg-3 col-md-6 text-muted ">
+    <h6>useful Links
+    </h6>
+    <ul class="list-unstyled ps-3 ">
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+    </ul>
+  </div>
+  <div class="col-lg-3 col-md-6 text-muted">
+    <h6>useful Links
+    </h6>
+    <ul class="list-unstyled ps-3">
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+    </ul>
+  </div>
+  <div class="col-lg-3 col-md-6 text-muted">
+    <p>Our Social Networks</p>
+<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies
+
+</p>
+<a href="https://www.facebook.com/profile.php?id=100037193858029" class="fa-brands fa-facebook text-white p-2 border fs-3 bg-primary text-decoration-none"></a>
+<a href="https://www.linkedin.com/in/saad-ahmed-683b77219/" class="fa-brands fa-linkedin text-white p-2 border fs-3 bg-primary text-decoration-none"></a>
+<a href="https://github.com/saadahmed313" class="fa-brands fa-github text-white p-2 border fs-3 bg-primary text-decoration-none"></a>
+<a href="mailto:lord.amen84@gamil.com?subject=Contact" class="fa-regular fa-envelope text-danger p-2 border fs-3 bg-light text-decoration-none"></a>
+
+  </div>
+  </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-primary" id="exampleModalLabel">Abdo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+   <object data="https://www.youtube.com/embed/4ydvMB3Vtc0" class="w-100 h-75"></object>
+      </div>
+   
+    </div>
+  </div>
+</div>
+<!-- <script src="./js/lightgallry.js"></script> -->
+<script src="./js/scrollOut.js"></script>
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
+<!-- <i class="bi bi-journal-richtext fs-3 text-light"></i> -->
+<!-- <i class="bi bi-headset fs-3 text-light"></i> -->
+<!-- <i class="bi bi-people fs-3 text-light"></i> -->
